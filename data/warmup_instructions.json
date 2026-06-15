@@ -1,0 +1,78 @@
+{
+  "current_instruction": "<@U0BAF74AHKK> skip commenting today, just browse and upvote",
+  "current_instruction_ts": "2026-06-15T11:07:51.389565+00:00",
+  "pending_command": null,
+  "instruction_history": [
+    {
+      "ts": "2026-06-15T11:07:51.389565+00:00",
+      "instruction": "<@U0BAF74AHKK> skip commenting today, just browse and upvote",
+      "source": "openclaw_slack_dm"
+    }
+  ],
+  "known_subreddits": [
+    "learnprogramming",
+    "learnpython",
+    "webdev",
+    "cscareerquestions",
+    "AskProgramming",
+    "Python"
+  ],
+  "frequent_keywords": [],
+  "subreddit_performance": {
+    "learnprogramming": {
+      "comments_posted": 0,
+      "comments_failed": 1,
+      "last_used": "2026-06-15T10:50:41.997711+00:00"
+    },
+    "learnpython": {
+      "comments_posted": 0,
+      "comments_failed": 1,
+      "last_used": "2026-06-15T10:50:41.997711+00:00"
+    },
+    "webdev": {
+      "comments_posted": 0,
+      "comments_failed": 1,
+      "last_used": "2026-06-15T10:50:41.997711+00:00"
+    },
+    "cscareerquestions": {
+      "comments_posted": 0,
+      "comments_failed": 1,
+      "last_used": "2026-06-15T10:50:41.997711+00:00"
+    },
+    "AskProgramming": {
+      "comments_posted": 0,
+      "comments_failed": 1,
+      "last_used": "2026-06-15T10:50:41.997711+00:00"
+    },
+    "Python": {
+      "comments_posted": 0,
+      "comments_failed": 1,
+      "last_used": "2026-06-15T10:50:41.997711+00:00"
+    }
+  },
+  "failed_subreddits": [],
+  "session_results": [
+    {
+      "session": 3,
+      "ts": "2026-06-15T10:50:41.997711+00:00",
+      "subreddits": [
+        "learnprogramming",
+        "learnpython",
+        "webdev",
+        "cscareerquestions",
+        "AskProgramming",
+        "Python"
+      ],
+      "instruction": "",
+      "comment_posted": false,
+      "comment_subreddit": "learnprogramming",
+      "keywords_matched": [
+        "?",
+        "how",
+        "what",
+        "why",
+        "help"
+      ]
+    }
+  ]
+}

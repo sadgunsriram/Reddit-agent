@@ -1,6 +1,6 @@
 {
-  "current_instruction": "<@U0BAF74AHKK> Search for FIFA Worldcup subReddits",
-  "current_instruction_ts": "2026-06-27T08:09:33Z",
+  "current_instruction": "<@U0BAF74AHKK> search for movivation subreddits and read comment and respond/reply to that comment",
+  "current_instruction_ts": "2026-06-27T11:27:34Z",
   "pending_command": null,
   "instruction_history": [
     {
@@ -59,6 +59,16 @@
         "worldcup"
       ],
       "source": "openclaw_slack_dm"
+    },
+    {
+      "ts": "2026-06-27T11:27:34Z",
+      "text": "<@U0BAF74AHKK> search for movivation subreddits and read comment and respond/reply to that comment",
+      "instruction": "<@U0BAF74AHKK> search for movivation subreddits and read comment and respond/reply to that comment",
+      "parsed_subreddits": [],
+      "parsed_keywords": [
+        "motivation"
+      ],
+      "source": "openclaw_slack_dm"
     }
   ],
   "known_subreddits": [
@@ -92,7 +102,8 @@
     "business",
     "code",
     "fifa",
-    "worldcup"
+    "worldcup",
+    "motivation"
   ],
   "subreddit_performance": {
     "learnprogramming": {

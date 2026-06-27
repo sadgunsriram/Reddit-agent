@@ -1,28 +1,104 @@
 {
-  "current_instruction": "<@U0BAF74AHKK> skip commenting today, just browse and upvote",
-  "current_instruction_ts": "2026-06-15T11:07:51.389565+00:00",
+  "current_instruction": "<@U0BAF74AHKK> Search for FIFA Worldcup subReddits",
+  "current_instruction_ts": "2026-06-27T08:09:33Z",
   "pending_command": null,
   "instruction_history": [
     {
       "ts": "2026-06-15T11:07:51.389565+00:00",
       "instruction": "<@U0BAF74AHKK> skip commenting today, just browse and upvote",
       "source": "openclaw_slack_dm"
+    },
+    {
+      "ts": "2026-06-15T18:54:38+05:30",
+      "text": "Find the subreddits where people actively engage in Anime Content",
+      "instruction": "Find the subreddits where people actively engage in Anime Content",
+      "parsed_subreddits": [],
+      "parsed_keywords": [
+        "anime"
+      ],
+      "source": "openclaw_slack_dm"
+    },
+    {
+      "ts": "2026-06-17T12:00:00+05:30",
+      "text": "Rotate randomly across tech, education, and business subreddits each session",
+      "instruction": "Rotate randomly across tech, education, and business subreddits each session. Pick 3 different subreddits from these categories.",
+      "parsed_subreddits": [
+        "programming",
+        "entrepreneur",
+        "learnprogramming",
+        "startups",
+        "webdev",
+        "college",
+        "marketing",
+        "Python",
+        "cscareerquestions",
+        "javascript",
+        "sideproject",
+        "MachineLearning",
+        "devops",
+        "AskAcademia",
+        "smallbusiness"
+      ],
+      "parsed_keywords": [
+        "tech",
+        "education",
+        "business",
+        "programming",
+        "startup",
+        "learning"
+      ],
+      "source": "openclaw_slash_command"
+    },
+    {
+      "ts": "2026-06-27T08:09:33Z",
+      "text": "<@U0BAF74AHKK> Search for FIFA Worldcup subReddits",
+      "instruction": "<@U0BAF74AHKK> Search for FIFA Worldcup subReddits",
+      "parsed_subreddits": [],
+      "parsed_keywords": [
+        "fifa",
+        "worldcup"
+      ],
+      "source": "openclaw_slack_dm"
     }
   ],
   "known_subreddits": [
+    "programming",
+    "Python",
+    "webdev",
     "learnprogramming",
     "learnpython",
-    "webdev",
     "cscareerquestions",
+    "javascript",
+    "MachineLearning",
+    "devops",
     "AskProgramming",
-    "Python"
+    "college",
+    "AskAcademia",
+    "entrepreneur",
+    "startups",
+    "smallbusiness",
+    "marketing",
+    "sideproject"
   ],
-  "frequent_keywords": [],
+  "frequent_keywords": [
+    "programming",
+    "startup",
+    "learning",
+    "help",
+    "advice",
+    "beginner",
+    "how",
+    "career",
+    "business",
+    "code",
+    "fifa",
+    "worldcup"
+  ],
   "subreddit_performance": {
     "learnprogramming": {
       "comments_posted": 0,
-      "comments_failed": 1,
-      "last_used": "2026-06-15T10:50:41.997711+00:00"
+      "comments_failed": 6,
+      "last_used": "2026-06-19T04:43:18.336529+00:00"
     },
     "learnpython": {
       "comments_posted": 0,
@@ -46,11 +122,42 @@
     },
     "Python": {
       "comments_posted": 0,
-      "comments_failed": 1,
-      "last_used": "2026-06-15T10:50:41.997711+00:00"
+      "comments_failed": 3,
+      "last_used": "2026-06-19T12:34:32.149915+00:00"
+    },
+    "anime": {
+      "comments_posted": 0,
+      "comments_failed": 5,
+      "last_used": "2026-06-17T04:53:28.260771+00:00"
+    },
+    "programming": {
+      "comments_posted": 0,
+      "comments_failed": 5,
+      "last_used": "2026-06-19T04:43:18.336529+00:00"
+    },
+    "entrepreneur": {
+      "comments_posted": 0,
+      "comments_failed": 5,
+      "last_used": "2026-06-19T04:43:18.336529+00:00"
+    },
+    "startups": {
+      "comments_posted": 0,
+      "comments_failed": 2,
+      "last_used": "2026-06-19T12:34:32.149915+00:00"
+    },
+    "college": {
+      "comments_posted": 0,
+      "comments_failed": 2,
+      "last_used": "2026-06-19T12:34:32.149915+00:00"
     }
   },
-  "failed_subreddits": [],
+  "failed_subreddits": [
+    "Python",
+    "anime",
+    "entrepreneur",
+    "learnprogramming",
+    "programming"
+  ],
   "session_results": [
     {
       "session": 3,
@@ -72,6 +179,351 @@
         "what",
         "why",
         "help"
+      ]
+    },
+    {
+      "session": 4,
+      "ts": "2026-06-15T11:30:07.415323+00:00",
+      "subreddits": [
+        "learnprogramming"
+      ],
+      "instruction": "<@U0BAF74AHKK> skip commenting today, just browse and upvote",
+      "comment_posted": false,
+      "comment_subreddit": "",
+      "keywords_matched": [
+        "programming",
+        "help",
+        "question",
+        "beginner",
+        "advice"
+      ]
+    },
+    {
+      "session": 5,
+      "ts": "2026-06-15T13:08:11.758956+00:00",
+      "subreddits": [
+        "learnprogramming"
+      ],
+      "instruction": "<@U0BAF74AHKK> skip commenting today, just browse and upvote",
+      "comment_posted": false,
+      "comment_subreddit": "",
+      "keywords_matched": [
+        "programming",
+        "help",
+        "question",
+        "beginner",
+        "advice"
+      ]
+    },
+    {
+      "session": 6,
+      "ts": "2026-06-16T06:59:48.824778+00:00",
+      "subreddits": [
+        "learnprogramming"
+      ],
+      "instruction": "<@U0BAF74AHKK> skip commenting today, just browse and upvote",
+      "comment_posted": false,
+      "comment_subreddit": "",
+      "keywords_matched": [
+        "programming",
+        "help",
+        "question",
+        "beginner",
+        "advice"
+      ]
+    },
+    {
+      "session": 7,
+      "ts": "2026-06-16T11:43:35.755298+00:00",
+      "subreddits": [
+        "anime"
+      ],
+      "instruction": "Find the subreddits where people actively engage in Anime Content",
+      "comment_posted": false,
+      "comment_subreddit": "anime",
+      "keywords_matched": [
+        "anime",
+        "discussion",
+        "recommendations",
+        "episodes",
+        "characters"
+      ]
+    },
+    {
+      "session": 8,
+      "ts": "2026-06-16T15:18:52.720042+00:00",
+      "subreddits": [
+        "anime"
+      ],
+      "instruction": "Find the subreddits where people actively engage in Anime Content",
+      "comment_posted": false,
+      "comment_subreddit": "anime",
+      "keywords_matched": [
+        "anime",
+        "discussion",
+        "recommendations",
+        "episodes",
+        "characters"
+      ]
+    },
+    {
+      "session": 9,
+      "ts": "2026-06-16T21:23:16.478323+00:00",
+      "subreddits": [
+        "anime"
+      ],
+      "instruction": "Find the subreddits where people actively engage in Anime Content",
+      "comment_posted": false,
+      "comment_subreddit": "anime",
+      "keywords_matched": [
+        "anime",
+        "discussion",
+        "recommendations",
+        "episodes",
+        "characters"
+      ]
+    },
+    {
+      "session": 10,
+      "ts": "2026-06-17T00:19:47.173024+00:00",
+      "subreddits": [
+        "anime"
+      ],
+      "instruction": "Find the subreddits where people actively engage in Anime Content",
+      "comment_posted": false,
+      "comment_subreddit": "anime",
+      "keywords_matched": [
+        "anime",
+        "discussion",
+        "recommendations",
+        "episodes",
+        "characters"
+      ]
+    },
+    {
+      "session": 11,
+      "ts": "2026-06-17T04:53:28.260771+00:00",
+      "subreddits": [
+        "anime"
+      ],
+      "instruction": "Find the subreddits where people actively engage in Anime Content",
+      "comment_posted": false,
+      "comment_subreddit": "anime",
+      "keywords_matched": [
+        "anime",
+        "discussion",
+        "recommendations",
+        "episodes",
+        "characters"
+      ]
+    },
+    {
+      "session": 12,
+      "ts": "2026-06-17T08:36:09.780941+00:00",
+      "subreddits": [
+        "programming",
+        "learnprogramming",
+        "entrepreneur"
+      ],
+      "instruction": "Rotate randomly across tech, education, and business subreddits each session. Pi",
+      "comment_posted": false,
+      "comment_subreddit": "programming",
+      "keywords_matched": [
+        "programming",
+        "learning",
+        "business",
+        "startup",
+        "help"
+      ]
+    },
+    {
+      "session": 13,
+      "ts": "2026-06-17T22:12:25.060818+00:00",
+      "subreddits": [
+        "programming",
+        "learnprogramming",
+        "entrepreneur"
+      ],
+      "instruction": "Rotate randomly across tech, education, and business subreddits each session. Pi",
+      "comment_posted": false,
+      "comment_subreddit": "programming",
+      "keywords_matched": [
+        "programming",
+        "learning",
+        "business",
+        "startup",
+        "help"
+      ]
+    },
+    {
+      "session": 14,
+      "ts": "2026-06-18T01:17:53.796333+00:00",
+      "subreddits": [
+        "programming",
+        "learnprogramming",
+        "entrepreneur"
+      ],
+      "instruction": "Rotate randomly across tech, education, and business subreddits each session. Pi",
+      "comment_posted": false,
+      "comment_subreddit": "programming",
+      "keywords_matched": [
+        "programming",
+        "learning",
+        "business",
+        "startup",
+        "help"
+      ]
+    },
+    {
+      "session": 15,
+      "ts": "2026-06-18T04:23:20.355684+00:00",
+      "subreddits": [
+        "programming",
+        "learnprogramming",
+        "entrepreneur"
+      ],
+      "instruction": "Rotate randomly across tech, education, and business subreddits each session. Pi",
+      "comment_posted": false,
+      "comment_subreddit": "programming",
+      "keywords_matched": [
+        "programming",
+        "learning",
+        "business",
+        "startup",
+        "help"
+      ]
+    },
+    {
+      "session": 16,
+      "ts": "2026-06-18T10:39:11.911800+00:00",
+      "subreddits": [
+        "programming",
+        "learnprogramming",
+        "entrepreneur"
+      ],
+      "instruction": "Rotate randomly across tech, education, and business subreddits each session. Pi",
+      "comment_posted": false,
+      "comment_subreddit": "programming",
+      "keywords_matched": [
+        "programming",
+        "learning",
+        "business",
+        "startup",
+        "help"
+      ]
+    },
+    {
+      "session": 17,
+      "ts": "2026-06-18T13:13:01.354814+00:00",
+      "subreddits": [
+        "programming",
+        "learnprogramming",
+        "entrepreneur"
+      ],
+      "instruction": "Rotate randomly across tech, education, and business subreddits each session. Pi",
+      "comment_posted": false,
+      "comment_subreddit": "programming",
+      "keywords_matched": [
+        "programming",
+        "learning",
+        "business",
+        "startup",
+        "help"
+      ]
+    },
+    {
+      "session": 18,
+      "ts": "2026-06-18T17:49:54.829799+00:00",
+      "subreddits": [
+        "programming",
+        "learnprogramming",
+        "entrepreneur"
+      ],
+      "instruction": "Rotate randomly across tech, education, and business subreddits each session. Pi",
+      "comment_posted": false,
+      "comment_subreddit": "programming",
+      "keywords_matched": [
+        "programming",
+        "learning",
+        "business",
+        "startup",
+        "help"
+      ]
+    },
+    {
+      "session": 19,
+      "ts": "2026-06-19T04:43:18.336529+00:00",
+      "subreddits": [
+        "programming",
+        "learnprogramming",
+        "entrepreneur"
+      ],
+      "instruction": "Rotate randomly across tech, education, and business subreddits each session. Pi",
+      "comment_posted": false,
+      "comment_subreddit": "programming",
+      "keywords_matched": [
+        "programming",
+        "learning",
+        "business",
+        "startup",
+        "help"
+      ]
+    },
+    {
+      "session": 20,
+      "ts": "2026-06-19T05:42:15.588777+00:00",
+      "subreddits": [
+        "Python",
+        "startups",
+        "college"
+      ],
+      "instruction": "Hey <@U0BAF74AHKK> what are you doing right now ?",
+      "comment_posted": false,
+      "comment_subreddit": "Python",
+      "keywords_matched": [
+        "what",
+        "doing",
+        "now",
+        "current",
+        "activity"
+      ]
+    },
+    {
+      "session": 21,
+      "ts": "2026-06-19T10:24:27.111042+00:00",
+      "subreddits": [
+        "Python",
+        "startups",
+        "college"
+      ],
+      "instruction": "Hey <@U0BAF74AHKK> what are you doing right now ?",
+      "comment_posted": false,
+      "comment_subreddit": "Python",
+      "keywords_matched": [
+        "what",
+        "doing",
+        "now",
+        "current",
+        "activity"
+      ]
+    },
+    {
+      "session": 22,
+      "ts": "2026-06-19T12:34:32.149915+00:00",
+      "subreddits": [
+        "Python",
+        "startups",
+        "college"
+      ],
+      "instruction": "Hey <@U0BAF74AHKK> what are you doing right now ?",
+      "comment_posted": false,
+      "comment_subreddit": "Python",
+      "keywords_matched": [
+        "what",
+        "doing",
+        "now",
+        "current",
+        "activity"
       ]
     }
   ]

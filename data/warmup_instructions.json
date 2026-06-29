@@ -1,6 +1,6 @@
 {
-  "current_instruction": "<@U0BAF74AHKK> search for movivation subreddits and read comment and respond/reply to that comment",
-  "current_instruction_ts": "2026-06-27T11:27:34Z",
+  "current_instruction": "<@U0BAF74AHKK> start working on US Health related subreddits",
+  "current_instruction_ts": "2026-06-29T11:39:36Z",
   "pending_command": null,
   "instruction_history": [
     {
@@ -69,6 +69,17 @@
         "motivation"
       ],
       "source": "openclaw_slack_dm"
+    },
+    {
+      "ts": "2026-06-29T11:39:36Z",
+      "text": "<@U0BAF74AHKK> start working on US Health related subreddits",
+      "instruction": "<@U0BAF74AHKK> start working on US Health related subreddits",
+      "parsed_subreddits": [],
+      "parsed_keywords": [
+        "us health",
+        "health"
+      ],
+      "source": "openclaw_slack_dm"
     }
   ],
   "known_subreddits": [
@@ -103,7 +114,9 @@
     "code",
     "fifa",
     "worldcup",
-    "motivation"
+    "motivation",
+    "us health",
+    "health"
   ],
   "subreddit_performance": {
     "learnprogramming": {

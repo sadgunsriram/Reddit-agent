@@ -1,6 +1,6 @@
 {
-  "current_instruction": "<@U0BAF74AHKK> work on weight loss and mental health telehealth apps that are working with doctor suggested medications",
-  "current_instruction_ts": "2026-06-30T10:53:33Z",
+  "current_instruction": "<@U0BAF74AHKK> If no Active subs specified for the warming phases you need to do warm up on Trending topics",
+  "current_instruction_ts": "2026-06-30T12:42:41Z",
   "pending_command": null,
   "instruction_history": [
     {
@@ -106,6 +106,17 @@
         "doctor suggested medications"
       ],
       "source": "openclaw_slack_dm"
+    },
+    {
+      "ts": "2026-06-30T12:42:41Z",
+      "text": "<@U0BAF74AHKK> If no Active subs specified for the warming phases you need to do warm up on Trending topics",
+      "instruction": "<@U0BAF74AHKK> If no Active subs specified for the warming phases you need to do warm up on Trending topics",
+      "parsed_subreddits": [],
+      "parsed_keywords": [
+        "warming phases",
+        "trending topics"
+      ],
+      "source": "openclaw_slack_dm"
     }
   ],
   "known_subreddits": [
@@ -146,7 +157,9 @@
     "weight loss",
     "mental health",
     "telehealth",
-    "doctor suggested medications"
+    "doctor suggested medications",
+    "warming phases",
+    "trending topics"
   ],
   "subreddit_performance": {
     "learnprogramming": {
